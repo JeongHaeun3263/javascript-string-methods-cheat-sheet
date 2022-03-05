@@ -1,7 +1,9 @@
 # String Methods Cheat Sheet
 
-`const str = 'HeLlo'`
-`const stringObj = new String('grace')`
+```javascript
+const str = 'HeLlo';
+const stringObj = new String('grace');
+```
 
 | Methods       | Code Example                | Result                    | Return Type |
 | ------------- | --------------------------- | ------------------------- | ----------- |
@@ -28,9 +30,9 @@
 | substring()   | str.substring(1, 3)         | eL                        | string      |
 | toLowerCase() | str.toLowerCase()           | hello                     | string      |
 | toUpperCase() | str.toUpperCase()           | HELLO                     | string      |
-| trim() '      | hello '.trim()              | hello                     | string      |
-| trimEnd()     | ' hello '.trimEnd()         | hello                     | string      |
-| trimStart()   | ' hello '.trimStart()       | hello                     | string      |
+| trim()        | ' hello '.trim()            | 'hello'                   | string      |
+| trimEnd()     | ' hello '.trimEnd()         | ' hello'                  | string      |
+| trimStart()   | ' hello '.trimStart()       | 'hello '                  | string      |
 | valueOf()     | stringObj.valueOf()         | grace                     | string      |
 | match()       | str.match(/[A-Z]/g)         | ["H", "L"]                | array       |
 | split()       | str.split()                 | ["HeLlo"]                 | array       |
